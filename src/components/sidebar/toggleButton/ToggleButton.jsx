@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ToggleButton = () => {
+const ToggleButton = ({setOpen}) => {
   return (
-    <button>
-        
+    <button onClick={()=> setOpen((e)=> !e)}>
+        Button
     </button>
   )
 }
