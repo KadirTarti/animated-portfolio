@@ -12,7 +12,7 @@ html {
 
 body{
     background-color: rgba(41,46,73,1);
-    color:rgba(83,105,118,1)
+    color:white;
 }
 
 a{
@@ -25,17 +25,18 @@ section {
     scroll-snap-align: center;
 }
 
-.course {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+//! başta yaptığım kutu animasyonun css'i
+// .course {
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    .box{
-        width: 14rem;
-        height: 14rem;
-        background-color: white;
-    }
-}
+//     .box{
+//         width: 14rem;
+//         height: 14rem;
+//         background-color: white;
+//     }
+// }
 
 
