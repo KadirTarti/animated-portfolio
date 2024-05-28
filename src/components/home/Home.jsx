@@ -6,7 +6,7 @@ const Home = () => {
       <div className="wrapper">
         <div className="textContainer">
           <h2>Abdulkadir TARTILACI</h2>
-          <h1>Web Developer and UI Designer</h1>
+          <h1>Web Developer and Designer</h1>
           <div className="buttons">
             <button>See My Projects</button>
             <button>Contact Me</button>

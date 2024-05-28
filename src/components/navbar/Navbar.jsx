@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="wrapper">
         <motion.span
         initial={{opacity:0 , scale: 0.5}} animate={{opacity:1 , scale: 1.5}} transition= {{duration: 1}}>
-        Abdulkadir Tartilaci
+        AKT
         </motion.span>
         <div className="social">
             <a href=""><img src="./github.png" alt="" /></a>
