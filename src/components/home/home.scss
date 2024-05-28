@@ -1,0 +1,47 @@
+.home {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(180deg, #292E49, #030820);
+    position: relative;
+
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            h2{
+                font-size: 2rem;
+                color: wheat;
+                letter-spacing: 10px;
+            }
+
+            h1{
+                font-size: ;
+            }
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    .imageContainer{
+        height: 100%;
+        position: absolute;
+        top:0;
+        right: 0;
+
+        img{
+            width: 50%;
+            border-radius: 50%;
+        }
+
+    }
+}

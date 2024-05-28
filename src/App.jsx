@@ -1,10 +1,14 @@
 import Test from './Test';
 import './app.scss'
+import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return <div>
-    <section id='Homepage'><Navbar/></section>
+    <section id='Homepage'>
+    <Navbar/>
+    <Home/>
+    </section>
     <section id='Services'>Parallax</section>
     <section>Sercives</section>
     <section id='Portfolio'>Parallax</section>
