@@ -3,12 +3,12 @@ import {motion} from 'framer-motion'
 const variants = {
   open: {
     transition: {
-      straggerChildren: 0.1
+      staggerChildren: 0.1
     },
   },
   closed: {
     transition: {
-      straggerChildren: 0.05,
+      staggerChildren: 0.05,
       staggerDirection: -1,
     }
   }

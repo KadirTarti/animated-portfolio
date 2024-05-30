@@ -59,4 +59,14 @@
         }
 
     }
+
+    .slidingTextContainer {
+        position: absolute;
+        font-size: 36vh;
+        bottom: -30px;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+    }
 }
